@@ -9,8 +9,8 @@ Data Preprocessing.
 -What variable(s) should be removed from the input data because they are neither targets nor features? Two columns that were dropped were "EIN" & "NAME".  
 
 Compiling, Training, and Evaluating the Model.  
--How many neurons, layers, and activation functions did you select for your neural network model, and why? I selected 3 layers and used relu twice and and sigmoid for the 3rd one. Additionally, I had 80 and 30 neurons for the first two layers.
--Were you able to achieve the target model performance?  No, I was only able to get around 72% of the targeted 75% accuracy.
--What steps did you take in your attempts to increase model performance?  I dropped the 'use_case' column, chnaged the cutoff value for application types to 600, and increased epochs to 200 in my model.
+-How many neurons, layers, and activation functions did you select for your neural network model, and why? I selected 3 layers and used relu twice and and sigmoid for the 3rd one. Additionally, I had 80 and 30 neurons for the first two layers.  
+-Were you able to achieve the target model performance?  No, I was only able to get around 72% of the targeted 75% accuracy.  
+-What steps did you take in your attempts to increase model performance?  I dropped the 'use_case' column, chnaged the cutoff value for application types to 600, and increased epochs to 200 in my model.  
 
 Summary: We were able to get very close, but not eclipse the 75% target accuracy. I would recommend giving trying a random forrest model or a balanced random forest model to see if we could improve the accuracy of the model.
